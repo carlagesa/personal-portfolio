@@ -22,8 +22,8 @@ document.getElementById("submit").onclick = function () {
   var name = document.getElementById("name").value;
 
   alert(
-    name.charAt(0).toUpperCase() +
-      name.substring(1) +
+    name[0].toUpperCase() +
+      name.substring(1).toLowerCase() +
       ", " +
       "Thank you for reaching out to me, lets schedule a coffee meet."
   );
