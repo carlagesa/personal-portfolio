@@ -470,3 +470,33 @@ mark {
   font-size: 1.5rem;
   font-weight: 500;
 }
+input::placeholder {
+  color: #15aabf;
+}
+input {
+  color: white;
+  border: 2px solid #15aabf;
+  display: flex;
+  margin-top: 20px;
+  width: 70%;
+  height: 20vh;
+  border-top-style: none;
+  border-left-style: none;
+  border-right-style: none;
+  margin-left: 20vh;
+  font-size: xx-large;
+}
+
+#submit {
+  background-color: #15aabf;
+  color: white;
+  width: 25vh ;
+  height: 5vh;
+  margin-left: 20vh;
+  margin-top: 20px;
+  cursor: pointer;
+}
+#submit:hover{
+background-color: white;
+color: black;
+}
